@@ -40,6 +40,7 @@ if (isset($_POST['submit'])) {
 
 
 <!------ Include the above in your HEAD tag ---------->
+<form action="" method="POST">
 <label for="email"></label>
 <input type="email" name="email">
 <label for="password"></label>
