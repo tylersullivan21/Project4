@@ -1,0 +1,85 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-template-columns:
+    23% 30% 1fr 23%;
+    grid-gap: 35px;;
+    grid-template-areas:
+    ". headline-article headline-article ."
+    ". api-content twitter-content ."
+}
+
+.headline-article{
+    grid-area: headline-article;
+}
+
+.api-content{
+    grid-area: api-content;
+    display: grid;
+   
+    grid-template-areas:
+    "card"
+    "card2"
+    "card3";
+   
+}
+.card{
+    grid-area: card;
+}
+.card2{
+    grid-area: card2;
+}
+.card3{
+    grid-area:card3
+}
+.twitter-content{
+    grid-area: twitter-content;
+    display: grid;
+    grid-template-areas:
+    "tweet1"
+    "tweet2"
+    "tweet3";
+}
+
+
+.headline img{
+    width: 100%;
+}
+
+.card img{
+    width: 100%;
+}
+.card1 img{
+    width: 100%;
+}
+
+.card2 img{
+    width: 100%;
+}
+
+.card3 img{
+    width: 100%;
+}
+.tweet img{
+    width: 100%;
+}
+
+
+
+
+/* MEDIA QUERY FOR DESKTOP/LAPTOP*/
+
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) { 
+    .grid-wrapper{
+    grid-template-columns: 16% 30% 1fr 16%;
+    grid-gap: 20px;
+    }
+  
+}
