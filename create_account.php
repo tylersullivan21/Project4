@@ -5,13 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <?php
     include("nav.php");
 ?>
+
+<?php
+if (isset($_POST['submit'])) {
+    $email = $_POST["email"];
+    $password = $_POST["password"];
+    $passwordSecured = sha1($password);
+
+    //Regular Expressions checks for emails and password lengths to be added afterwards
+    //Keeping Simple for testing Database and User Content Logic
+
+
+    include "db_connection.php";
+
+    $newUser = "INSERT INTO user_creds (user_email, user_pass) VALUES (?, ?)";
+
+    //Prepared Statement for user credentials input into database
+    $stmt = mysqli_stmt_init($connect);
+    if (!mysqli_stmt_prepare($stmt, $newUser)) {
+        echo "SQL ERROR";
+    } else {
+        mysqli_stmt_bind_param($stmt, "ss", $email, $passwordSecured);
+        mysqli_stmt_execute($stmt);
+        mysqli_close($connect);
+    }
+}
+?>
+
 <body>
 
 
