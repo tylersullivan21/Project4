@@ -1,0 +1,136 @@
+body {
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+.nav-container{
+    display: grid;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    width: 100%;
+    height: 70px;
+    background-color: #173753;
+    grid-template-columns: 20% 250px 26% 1fr 1fr 1fr 1fr 1fr 18%;
+    grid-template-areas:
+    ". logo . home-link sports-link tech-link music-link sign-in-link ."
+}
+.nav-container a{
+  display: inline-block;
+/*padding: 8px 8px 8px 8px;*/
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-container a:hover{
+    background-color: #69A2B0;
+}
+
+.logo{
+    grid-area: logo;
+    font-size: 26px!important;
+    padding: 5px;
+    align-self: center;
+    justify-self: center;
+}
+.home-link{
+    grid-area: home-link;
+   padding: 5px;
+   align-self: center;
+   justify-self: center;
+}
+.sports-link{
+    grid-area: sports-link;
+    padding: 5px;
+    align-self: center;
+    justify-self: center;
+}
+.music-link{
+    grid-area: music-link;
+    padding: 5px;
+    align-self: center;
+    justify-self: center;
+}
+.tech-link{
+    grid-area: tech-link;
+    padding: 5px;
+    align-self: center;
+    justify-self: center;
+}
+.sign-in-link{
+    grid-area: sign-in-link;
+    padding: 5px;
+    align-self: center;
+    justify-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* old styles here
+  nav {
+    width: 100%;
+    height: 38px;
+    background-color: #0b98de;
+    overflow: hidden;
+  }
+#logo{
+    float: left;
+    padding-left: 30%;
+}
+  nav a {
+    display: block;
+    float: right;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+    padding: 20px 10px 10px 10px;
+    text-decoration: none;
+  }
+  nav a .nav-item{
+      float: right;
+  }
+
+  nav a:hover {
+    background-color: #17b0cf;
+  }
+
+  #logo {
+    font-family: 'Hind', sans-serif;
+    font-size: 30px;
+    letter-spacing: -2px;
+    text-shadow: 1px 1px 2px #c4c4c4;
+    padding-left: 20%;
+    padding-right: 40px;
+    margin-right: 10px;
+    margin-top: -20px;
+  }
+
+  */
+
+/* MEDIA QUERY FOR DESKTOP/LAPTOP*/
+  @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .nav-container{
+    grid-template-columns: 11% 250px 20% 1fr 1fr 1fr 1fr 1fr 16%;
+    }
+    .nav-container a{
+      font-size: 16px;
+    }
+}
