@@ -33,6 +33,12 @@ if (isset($_POST['submit'])) {
         mysqli_stmt_execute($stmt);
         mysqli_close($connect);
     }
+
+    echo "<h4>You have successfully created an account! You will be redirected in 5 seconds.</h4>";
+    header('Refresh:5; url=curated.php', true, 303);
+
+
+
 }
 ?>
 
