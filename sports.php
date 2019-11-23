@@ -16,12 +16,8 @@
 <main class="grid-wrapper">
 
 <section class="headline-article">
-<div class="headline">
-<h2 class="card-head">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, magnam.</h2>
-<img src="https://via.placeholder.com/1000x400?text=Visit+Blogging.com+Now%20C/O%20https://placeholder.com/" alt="">
-<h4>Another mini title here</h4>
-<p class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla fuga et labore voluptates velit nemo reiciendis consequuntur iusto tempora adipisci placeat ad esse odit iure, dolorum perspiciatis nam optio nesciunt sequi. Odio deserunt obcaecati, sint, consequuntur enim exercitationem eius modi quidem numquam ut placeat. adsf asdf lkjasdf lkjasdf lkajsdf lkajdfs</p>
-
+<blockquote class="embedly-card" data-card-key="ebb7de6b6ca24fff80d7dd010fad7fee" data-card-controls="0" data-card-type="article-full"><h4><a href="https://www.espn.com/mens-college-basketball/story/_/id/28130850/biggest-early-surprises">College basketball picks: Who are the biggest early surprises?</a></h4><p>Heading into the third weekend of college basketball, opinions are beginning to form on the top players and teams -- as well as those that have underachieved to date. With that in mind, ESPN.com's team of college basketball experts made their selections for the biggest early surprises, and also made their selections for a selection of this weekend's best games.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 </div>
 </section>
 <section class="api-content">
@@ -42,8 +38,7 @@
 
 
 <section class="twitter-content">
-
-
+<a class="twitter-timeline" data-height="1000" href="https://twitter.com/BleacherReport?ref_src=twsrc%5Etfw">Tweets by BleacherReport</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 </section>

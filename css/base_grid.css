@@ -8,7 +8,7 @@
     23% 30% 1fr 23%;
     grid-gap: 35px;;
     grid-template-areas:
-    ". headline-article headline-article ."
+    ". headline-article twitter-content ."
     ". api-content twitter-content ."
 }
 
@@ -19,7 +19,6 @@
 .api-content{
     grid-area: api-content;
     display: grid;
-   
     grid-template-areas:
     "card"
     "card2"
@@ -38,10 +37,6 @@
 .twitter-content{
     grid-area: twitter-content;
     display: grid;
-    grid-template-areas:
-    "tweet1"
-    "tweet2"
-    "tweet3";
 }
 
 
