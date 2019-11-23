@@ -14,7 +14,9 @@
 <body>
     
 <main class="grid-wrapper">
-
+<section class="news-title">
+<h1>Tech News</h1>
+</section>
 <section class="headline-article">
 <blockquote class="embedly-card" data-card-key="ebb7de6b6ca24fff80d7dd010fad7fee" data-card-controls="0" data-card-type="article-full"><h4><a href="https://www.theverge.com/2019/11/23/20946114/google-youtube-premium-subscription-ads-pop-ups-spam-rant">YouTube needs to chill with its annoying Premium spam</a></h4><p>YouTube has been pissing me off for weeks. I'm starting to feel like I should pay $11.99 a month to subscribe to YouTube Premium just to get rid of the annoying pop-ups Google sends me almost daily. Google has decided to place pop-up ads in its own YouTube app for Premium subscriptions.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>

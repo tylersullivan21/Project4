@@ -14,7 +14,9 @@
 <body>
     
 <main class="grid-wrapper">
-
+<section class="news-title">
+<h1>Sports News</h1>
+</section>
 <section class="headline-article">
 <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://www.espn.com/college-football/story/_/page/gamedaykickoff191121/college-football-playoff-committee-biggest-debates-alabama-oregon-others">Breaking down the biggest potential debates for the playoff committee</a></h4><p>Nov 21, 2019 Heather DinichESPN Senior Writer Close College football reporter Joined ESPN.com in 2007 Graduate of Indiana University The College Football Playoff selection committee's top seven teams remained the same in its third ranking of the season, but there's always something to debate.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>

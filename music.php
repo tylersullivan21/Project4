@@ -14,6 +14,9 @@
 <body>
     
 <main class="grid-wrapper">
+<section class="news-title">
+<h1>Music News</h1>
+</section>
 
 <section class="headline-article">
 <blockquote class="embedly-card" data-card-key="ebb7de6b6ca24fff80d7dd010fad7fee" data-card-controls="0" data-card-type="article-full"><h4><a href="https://www.rollingstone.com/music/music-news/lizzo-grammy-nominations-triumph-music-streaming-915098/">Lizzo's Eight Grammy Nominations Are a Triumph for Music Streaming</a></h4><p>In 2004, journalist and entrepreneur Chris Anderson wrote an article for Wired arguing that the future of entertainment would not lie in a handful of chart-topping megahits but in the "millions of niche markets at the shallow end of the bitstream" - known in stats terms as the "long tail," or the modest, lower-volume sales streams that businesses tend to overlook in favor of pushing their most popular products.</p></blockquote>
@@ -38,7 +41,6 @@
 
 <section class="twitter-content">
 <a class="twitter-timeline" data-height="1200" href="https://twitter.com/billboard?ref_src=twsrc%5Etfw">Tweets by billboard</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 </section>
 
 </main>
