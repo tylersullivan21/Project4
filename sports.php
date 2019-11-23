@@ -30,25 +30,19 @@
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 </div>
 <div class="card2">
-    <img src="https://via.placeholder.com/600x500?text=Visit+Blogging.com+Now%20C/O%20https://placeholder.com/" alt="">
-    <h2 class="card-head">News title here</h2>
-    <p class="card-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum voluptate ratione quaerat necessitatibus modi et sed facere amet!</p>
+<blockquote class="embedly-card" data-card-key="ebb7de6b6ca24fff80d7dd010fad7fee" data-card-controls="0" data-card-type="article-full"><h4><a href="https://www.espn.com/nba/story/_/id/28143066/nets-kyrie-irving-miss-celtics-return-shoulder-injury">Kyrie to miss road trip, including Boston return</a></h4><p>11:13 PM ET Malika AndrewsESPN Staff Writer Close Staff Writer Joined ESPN in 2018 Appears regularly on ESPN Chicago 1000 NEW YORK -- Kyrie Irving will not play in the Brooklyn Nets' first matchup against his former team, the Boston Celtics, the team announced Friday night.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 </div>
 <div class="card3">
-    <img src="https://via.placeholder.com/600x500?text=Visit+Blogging.com+Now%20C/O%20https://placeholder.com/" alt="">
-    <h2 class="card-head">News title here</h2>
-    <p class="card-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum voluptate ratione quaerat necessitatibus modi et sed facere amet!</p>
+<blockquote class="embedly-card" data-card-key="ebb7de6b6ca24fff80d7dd010fad7fee" data-card-controls="0" data-card-type="article-full"><h4><a href="https://www.espn.com/college-football/story/_/page/weeklyscenario112219/how-conference-title-game-upsets-flip-college-football-playoff">How conference title game upsets could flip the CFP</a></h4><p>8:55 AM ET Seth WalderESPN Analytics Don't sleep on conference championship chaos. In the College Football Playoff era, there have been just two upsets in Power 5 conference championship games -- and both were Wisconsin losses in games where they were favored by four points or fewer.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 </div>
 </section>
 
 
 
 <section class="twitter-content">
-<div class="tweet">
-    <img src="https://via.placeholder.com/700x300?text=Visit+Blogging.com+Now%20C/O%20https://placeholder.com/" alt="">
-    <h2 class="card-head">New Tweet here</h4>
-    <p class="card-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum voluptate ratione quaerat necessitatibus modi et sed facere amet!</p>
-</div>
+
 
 
 
