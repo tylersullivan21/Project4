@@ -16,7 +16,7 @@
 <main class="grid-wrapper">
 
 <section class="headline-article">
-<blockquote class="embedly-card" data-card-key="ebb7de6b6ca24fff80d7dd010fad7fee" data-card-controls="0" data-card-type="article-full"><h4><a href="https://www.espn.com/mens-college-basketball/story/_/id/28130850/biggest-early-surprises">College basketball picks: Who are the biggest early surprises?</a></h4><p>Heading into the third weekend of college basketball, opinions are beginning to form on the top players and teams -- as well as those that have underachieved to date. With that in mind, ESPN.com's team of college basketball experts made their selections for the biggest early surprises, and also made their selections for a selection of this weekend's best games.</p></blockquote>
+<blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://www.espn.com/college-football/story/_/page/gamedaykickoff191121/college-football-playoff-committee-biggest-debates-alabama-oregon-others">Breaking down the biggest potential debates for the playoff committee</a></h4><p>Nov 21, 2019 Heather DinichESPN Senior Writer Close College football reporter Joined ESPN.com in 2007 Graduate of Indiana University The College Football Playoff selection committee's top seven teams remained the same in its third ranking of the season, but there's always something to debate.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 </div>
 </section>
@@ -43,6 +43,8 @@
 </section>
 
 </main>
-
+<footer id="footer" class="footer">
+        <p class="copyright" href="#">&copy Forum 2019</p>
+</footer>
 </body>
 </html>

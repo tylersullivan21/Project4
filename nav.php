@@ -1,11 +1,7 @@
 <head>
 <link rel="stylesheet" href="css/nav.css?v=1.0">
+<link rel="stylesheet" href="css/footer.css">
 </head>
-
-
-
-
-
     <nav class="nav">
   <input type="checkbox" id="nav-check">
   <div class="nav-header">
