@@ -23,10 +23,10 @@
   </div>
   
   <div class="nav-links">
-    <a href="index.php" target="_blank">Home</a>
-    <a href="sports.php" target="_blank">Sports</a>
-    <a href="tech.php" target="_blank">Tech</a>
-    <a href="music.php" target="_blank">Music</a>
-    <a href="login_page.php" target="_blank">Sign In</a>
+    <a href="index.php" >Home</a>
+    <a href="sports.php" >Sports</a>
+    <a href="tech.php" >Tech</a>
+    <a href="music.php" >Music</a>
+    <a href="login_page.php" >Sign In</a>
   </div>
 </nav>

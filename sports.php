@@ -26,11 +26,8 @@
 </section>
 <section class="api-content">
 <div class="card">
-    <img src="https://via.placeholder.com/600x500?text=Visit+Blogging.com+Now%20C/O%20https://placeholder.com/" alt="">
-    <h2 class="card-head">News title here</h2>
-    <blockquote class="embedly-card" data-card-key="ebb7de6b6ca24fff80d7dd010fad7fee"><h4><a href="https://sports.yahoo.com/rss/">(null)</a></h4><p>(null)</p></blockquote>
+<blockquote class="embedly-card" data-card-key="ebb7de6b6ca24fff80d7dd010fad7fee" data-card-controls="0" data-card-type="article-full"><h4><a href="https://www.espn.com/nfl/story/_/id/28131532/the-cowboys-playing-cowboy-way-offense-good-bad">The Cowboys aren't playing the Cowboy way on offense. Is that good or bad?</a></h4><p>7:05 AM ET Dan GrazianoESPN Staff Writer Close Joined ESPN in 2011 New Jersey native and author of two published novels Dissecting the Dallas Cowboys is America's pastime, and at this point it feels a little silly. They are, after all, 6-4 and in first place in the NFC East.</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-    <p class="card-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum voluptate ratione quaerat necessitatibus modi et sed facere amet!</p>
 </div>
 <div class="card2">
     <img src="https://via.placeholder.com/600x500?text=Visit+Blogging.com+Now%20C/O%20https://placeholder.com/" alt="">
