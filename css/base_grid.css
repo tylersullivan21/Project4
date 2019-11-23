@@ -89,6 +89,16 @@ and (min-resolution: 192dpi) {
   
 }
 
+@media only screen and (max-width: 1024px) {
+
+
+    .grid-wrapper{
+    padding-right: 15%;
+    padding-left: 15%;
+    }
+    }
+    
+
 
 
 /* STYLES FOR NAVBAR ON MOBILE*/
@@ -101,9 +111,15 @@ and (min-resolution: 192dpi) {
     grid-template-columns: 1fr;
     grid-gap: 35px;
     grid-template-areas:
+    "news-title"
         "headline-article"
         "api-content"
         "twitter-content";
 }
+
+.news-title{
+    font-size: 40px;
 }
+}
+
 
