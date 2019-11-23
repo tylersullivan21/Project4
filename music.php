@@ -25,27 +25,19 @@
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 </div>
 <div class="card2">
-    <img src="https://via.placeholder.com/600x500?text=Visit+Blogging.com+Now%20C/O%20https://placeholder.com/" alt="">
-    <h2 class="card-head">News title here</h2>
-    <p class="card-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum voluptate ratione quaerat necessitatibus modi et sed facere amet!</p>
+<blockquote class="embedly-card" data-card-key="ebb7de6b6ca24fff80d7dd010fad7fee" data-card-controls="0" data-card-type="article-full"><h4><a href="https://www.rollingstone.com/music/music-news/motley-crue-def-leppard-poison-set-2020-stadium-tour-913823/">Mötley Crüe, Def Leppard, Poison Set 2020 Stadium Tour</a></h4><p>Mötley Crüe released a video Monday officially announcing their upcoming reunion. In 2020, they'll be kicking off a U.S. stadium tour with Poison and Def Leppard. While specific dates and venues have yet to be announced, the three acts will perform at stadiums around the country.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 </div>
 <div class="card3">
-    <img src="https://via.placeholder.com/600x500?text=Visit+Blogging.com+Now%20C/O%20https://placeholder.com/" alt="">
-    <h2 class="card-head">News title here</h2>
-    <p class="card-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum voluptate ratione quaerat necessitatibus modi et sed facere amet!</p>
+<blockquote class="embedly-card" data-card-key="ebb7de6b6ca24fff80d7dd010fad7fee" data-card-controls="0" data-card-type="article-full"><h4><a href="https://www.rollingstone.com/music/music-news/john-legend-this-christmas-baby-its-cold-outside-controversy-fallon-917304/">John Legend Performs 'This Christmas,' Talks 'Baby It's Cold Outside' Controversy on 'Fallon'</a></h4><p>John Legend took over The Tonight Show Starring Jimmy Fallon Friday night, with the "Sexiest Man Alive" delivering a soulful performance of "This Christmas" from the deluxe edition of his A Legendary Christmas, backed by a brass section and a group of festive backup singers.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 </div>
 </section>
 
 
 
 <section class="twitter-content">
-<div class="tweet">
-    <img src="https://via.placeholder.com/700x300?text=Visit+Blogging.com+Now%20C/O%20https://placeholder.com/" alt="">
-    <h2 class="card-head">New Tweet here</h4>
-    <p class="card-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum voluptate ratione quaerat necessitatibus modi et sed facere amet!</p>
-</div>
-
-
+<a class="twitter-timeline" data-height="1200" href="https://twitter.com/billboard?ref_src=twsrc%5Etfw">Tweets by billboard</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </section>
 
