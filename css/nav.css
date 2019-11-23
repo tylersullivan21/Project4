@@ -58,6 +58,12 @@ body {
 }
 
 @media (max-width:600px) {
+  .nav{
+    display:grid;
+  }
+  .nav-header{
+    padding-left: 10%!important;
+  }
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -101,4 +107,11 @@ body {
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
+}
+
+
+
+/* STYLES FOR NAVBAR ON MOBILE*/
+@media only screen and (max-width: 600px) {
+
 }

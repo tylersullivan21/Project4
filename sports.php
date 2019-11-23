@@ -38,8 +38,7 @@
 
 
 <section class="twitter-content">
-<a class="twitter-timeline" data-height="1000" href="https://twitter.com/BleacherReport?ref_src=twsrc%5Etfw">Tweets by BleacherReport</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<a class="twitter-timeline" data-height="1200" href="https://twitter.com/BleacherReport?ref_src=twsrc%5Etfw">Tweets by BleacherReport</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </section>
 
