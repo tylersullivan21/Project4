@@ -16,8 +16,6 @@ if (isset($_POST['submit'])) {
     $password = $_POST["password"];
     $passwordSecured = sha1($password);
 
-
-
     //Regular Expressions checks for emails and password lengths to be added afterwards
     //Keeping Simple for testing Database and User Content Logic
 
