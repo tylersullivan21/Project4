@@ -11,17 +11,18 @@
 <?php
     include("nav.php");
 ?>
+
 <body>
 <div class="container login-container">
             <div class="row justify-content-center">
                 <div class="col-md-5 login-form-1">
                     <h3>Login to your account</h3>
-                    <form>
+                    <form action="process.php" method="POST">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Email *" value="" />
+                            <input type="text" name ="email" class="form-control" placeholder="Your Email *" value="" />
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" placeholder="Your Password *" value="" />
+                            <input type="password" name="password" class="form-control" placeholder="Your Password *" value="" />
                         </div>
                         <div class="form-group justify-content-center">
                             <input type="submit"  name ="submit" class="btnSubmit" value="Login" />
