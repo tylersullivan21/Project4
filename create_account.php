@@ -77,6 +77,8 @@ if (isset($_POST['submit'])) {
      <input type="submit" class="btn btn-success" name="submit" value="Register">
 
 </form>
-   
+<footer id="footer" class="footer">
+        <p class="copyright" href="#">&copy Forum 2019</p>
+</footer>
 </body>
 </html>

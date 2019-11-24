@@ -57,6 +57,11 @@
 </section>
 
 </main>
-   
+<footer id="footer" class="footer">
+        <p class="copyright" href="#">&copy Forum 2019</p>
+</footer>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+<script src="js/modal.js"></script>
+<script src="js/nav.js"></script>
 </html>

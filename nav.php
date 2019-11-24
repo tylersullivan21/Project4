@@ -1,15 +1,28 @@
 <head>
 <link rel="stylesheet" href="css/nav.css?v=1.0">
+<link rel="stylesheet" href="css/footer.css">
 </head>
-<nav class="nav-container">
-   
-<a class="logo" id="logo" href="index.php">Forum</a>
+    <nav class="nav">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+      Forum
+    </div>
+  </div>
 
-    <a class="home-link" class="nav-item" href="index.php">Home</a>
-    <a class="sports-link" href="sports.php">Sports</a>
-    <a class="music-link" href="music.php">Music</a>
-    <a class="tech-link" href="tech.php">Tech</a>
-    <a class="sign-in-link" href="login_page.php">Sign-in</a>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
   
-
-  </nav>
+  <div class="nav-links">
+    <a href="index.php" >Home</a>
+    <a href="sports.php" >Sports</a>
+    <a href="tech.php" >Tech</a>
+    <a href="music.php" >Music</a>
+    <a href="login_page.php" >Sign In</a>
+  </div>
+</nav>
