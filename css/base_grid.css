@@ -1,7 +1,4 @@
-.body{
-    font-family: 'Poppins', sans-serif;
-    
-}
+
 
 .grid-wrapper{
     display: grid;
@@ -20,6 +17,8 @@
     justify-self: center;
     grid-area: news-title;
     padding-top: 5%;
+    font-family: 'Great Vibes', cursive ;
+    font-size: 40px;
 }
 
 .headline-article{
@@ -118,9 +117,4 @@ and (min-resolution: 192dpi) {
         "twitter-content";
 }
 
-.news-title{
-    font-size: 40px;
 }
-}
-
-

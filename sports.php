@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet"  href="css/base_grid.css?v=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>Forum</title>
 </head>
 <?php
@@ -15,7 +15,7 @@
     
 <main class="grid-wrapper">
 <section class="news-title">
-<h1>Sports News</h1>
+<h1>Sports</h1>
 </section>
 <section class="headline-article">
 <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://www.espn.com/college-football/story/_/page/gamedaykickoff191121/college-football-playoff-committee-biggest-debates-alabama-oregon-others">Breaking down the biggest potential debates for the playoff committee</a></h4><p>Nov 21, 2019 Heather DinichESPN Senior Writer Close College football reporter Joined ESPN.com in 2007 Graduate of Indiana University The College Football Playoff selection committee's top seven teams remained the same in its third ranking of the season, but there's always something to debate.</p></blockquote>
@@ -43,10 +43,9 @@
 <a class="twitter-timeline" data-height="1200" href="https://twitter.com/BleacherReport?ref_src=twsrc%5Etfw">Tweets by BleacherReport</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </section>
-
+<?php
+include 'include/footer.php';
+?>
 </main>
-<footer id="footer" class="footer">
-        <p class="copyright" href="#">&copy Forum 2019</p>
-</footer>
 </body>
 </html>
