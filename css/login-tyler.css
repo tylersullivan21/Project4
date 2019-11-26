@@ -14,7 +14,12 @@
     font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: 0.5px;
   }
+
   
+  
+  .grid-wrapper{
+    padding: 10%;
+  }
   .container{
     width: var(--form-width);
     height: var(--form-height);

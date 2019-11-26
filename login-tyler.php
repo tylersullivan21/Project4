@@ -13,6 +13,9 @@ include("nav.php");
 ?>
 <body>
     
+<main class="grid-wrapper">
+
+
 <div class="container">
   <div class="overlay" id="overlay">
     <div class="sign-in" id="sign-in">
@@ -66,6 +69,8 @@ include("nav.php");
     </div>
   </div>
 </div>
+
+</main>
 <footer id="footer" class="footer">
         <p class="copyright" href="#">&copy Forum 2019</p>
 </footer>
