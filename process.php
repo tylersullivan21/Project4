@@ -2,7 +2,7 @@
 
 include 'db_connection.php';
 
-if (isset($_POST['submit'])) {
+if (isset($_POST['signin'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
     $encrypt = sha1($password);
