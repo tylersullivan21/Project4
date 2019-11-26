@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/nav.css?v=1.0">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/login-tyler.css">
-    <title>$title</title>
+    <title><?php $title?></title>
 </head>
 
 

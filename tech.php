@@ -3,7 +3,9 @@
     include 'include/header.php';
     $title = "Tech";
     $category = "Tech";
-    $rsslink = "http://feeds.feedburner.com/TechCrunch/
+    $rsslink = "http://feeds.mashable.com/Mashable
+
+
 ";
     include 'include/newsTemplate.php';
 ?>
