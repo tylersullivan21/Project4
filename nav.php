@@ -23,6 +23,6 @@
     <a href="sports.php" >Sports</a>
     <a href="tech.php" >Tech</a>
     <a href="music.php" >Music</a>
-    <a href="login_page.php" >Sign In</a>
+    <a href="login-tyler.php" >Sign In</a>
   </div>
 </nav>
