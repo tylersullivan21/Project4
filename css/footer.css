@@ -1,6 +1,8 @@
 .footer{
     display: grid;
     height: 50px;
+
+   margin-bottom: -50px;
     background: #4d4d4d;
     grid-template-columns: 33% 33% 33%;
     grid-template-areas:
