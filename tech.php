@@ -3,7 +3,10 @@
     include 'include/header.php';
     $title = "Tech";
     $category = "Tech";
-    $rsslink = "http://feeds.mashable.com/Mashable
+    $rsslink = "http://feeds.wired.com/wired/index
+
+
+
 
 
 ";
