@@ -40,7 +40,7 @@ if (isset($_POST['signup'])) {
 ?>
 <body>
     
-<main class="grid-wrapper">
+<main class="grid-container">
 
 
 <div class="container">

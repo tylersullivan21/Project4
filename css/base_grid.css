@@ -4,12 +4,12 @@
     display: grid;
     background: #edeef0;
     grid-template-columns: 70% 30%;
+    grid-gap: 15px;
     padding-right: 22%;
     padding-left: 20%;
-    grid-template-areas:
+   grid-template-areas:
     "news-title news-title"
-        "headline-article twitter-content"
-        " api-content twitter-content";
+        "api-content twitter-content";
 
 }
 .news-title{
@@ -21,28 +21,13 @@
     font-size: 40px;
 }
 
-.headline-article{
-    grid-area: headline-article;
-}
+
 
 .api-content{
     grid-area: api-content;
-    display: grid;
-    grid-template-areas:
-    "card"
-    "card2"
-    "card3";
    
 }
-.card{
-    grid-area: card;
-}
-.card2{
-    grid-area: card2;
-}
-.card3{
-    grid-area:card3
-}
+
 .twitter-content{
     grid-area: twitter-content;
     display: grid;
