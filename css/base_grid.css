@@ -84,8 +84,8 @@ and (max-device-width: 1600px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (min-resolution: 192dpi) { 
     .grid-wrapper{
-    grid-template-columns: 16% 30% 1fr 16%;
-    grid-gap: 20px;
+        grid-template-columns: 70% 1fr;
+        grid-gap: 20px
     }
   
 }
