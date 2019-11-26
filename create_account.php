@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
 
     include "db_connection.php";
 
-    $newUser = "INSERT INTO user_creds (user_email, user_pass) VALUES (?, ?)";
+    $newUser = "INSERT INTO user (user_email, user_pass) VALUES (?, ?)";
 
     //Prepared Statement for user credentials input into database
     $stmt = mysqli_stmt_init($connect);
@@ -33,6 +33,24 @@ if (isset($_POST['submit'])) {
         mysqli_stmt_execute($stmt);
         mysqli_close($connect);
     }
+/*
+
+    if (isset($_POST['sports'])) {
+        $sports = $_POST['sports'];
+    }
+    if (isset($_POST['tech'])) {
+        $tech = $_POST['tech'];
+    }
+
+    if (isset($_POST['music'])) {
+        $music = $_POST['music'];
+    }
+*/
+
+
+    echo "<h4>You have successfully created an account! You will be redirected in 5 seconds.</h4>";
+
+    $_SESSION["loggedin"] = "true";
 }
 ?>
 
@@ -47,13 +65,13 @@ if (isset($_POST['submit'])) {
 <input type="password">
 
 <label for="sports">Sports</label>
-<input type="checkbox" name="sports">
+<input type="checkbox" name="sports" checked>
 
 <label for="sports">Tech</label>
-<input type="checkbox" name="sports">
+<input type="checkbox" name="tech" checked>
 
 <label for="sports">Music</label>
-<input type="checkbox" name="sports">
+<input type="checkbox" name="music" checked>
      <input type="submit" class="btn btn-success" name="submit" value="Register">
 
 </form>
