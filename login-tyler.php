@@ -5,15 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/login-tyler.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <?php
 include("nav.php");
 ?>
+
+<?php
+if (isset($_POST['signup'])) {
+    $email = $_POST["email"];
+    $password = $_POST["password"];
+    $passwordSecured = sha1($password);
+
+    //Regular Expressions checks for emails and password lengths to be added afterwards
+    //Keeping Simple for testing Database and User Content Logic
+
+
+    include "db_connection.php";
+
+    $newUser = "INSERT INTO user (user_email, user_pass) VALUES (?, ?)";
+
+    //Prepared Statement for user credentials input into database
+    $stmt = mysqli_stmt_init($connect);
+    if (!mysqli_stmt_prepare($stmt, $newUser)) {
+        echo "SQL ERROR";
+    } else {
+        mysqli_stmt_bind_param($stmt, "ss", $email, $passwordSecured);
+        mysqli_stmt_execute($stmt);
+        mysqli_close($connect);
+    }
+}
+?>
 <body>
     
-<main class="grid-wrapper">
+<main class="grid-container">
 
 
 <div class="container">
@@ -50,21 +77,21 @@ include("nav.php");
         </div>
       </div>
       <p class="small">or use your email account:</p>
-      <form id="sign-in-form">      
-        <input type="email" placeholder="Email"/>
-        <input type="password" placeholder="Password"/>
-        <button type="submit" class="control-button in">Sign In</button>
+      <form action ="process.php" id="sign-in-form" method="POST">      
+        <input type="email" name="email" placeholder="Email"/>
+        <input type="password" name="password" placeholder="Password"/>
+        <button type="submit" class="control-button in" name="signin">Sign In</button>
       </form>
     </div>
     <div class="sign-up" id="sign-up-info">
       <h1>Create Account</h1>
  
       <p class="small">or use your email for registration:</p>
-      <form action id="sign-up-form">
-        <input type="text" placeholder="Name"/>
-        <input type="email" placeholder="Email"/>
-        <input type="password" placeholder="Password"/>
-        <button class="control-button up">Sign Up</button>
+      <form action="" id="sign-up-form" method="POST">
+        <input type="text" name="test" placeholder="Name"/>
+        <input type="email" name="email" placeholder="Email"/>
+        <input type="password" name="password" placeholder="Password"/>
+        <button class="control-button up" name="signup">Sign Up</button>
       </form>
     </div>
   </div>

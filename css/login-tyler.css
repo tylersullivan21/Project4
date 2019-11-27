@@ -17,7 +17,7 @@
 
   
   
-  .grid-wrapper{
+  .grid-container{
     padding: 10%;
   }
   .container{
@@ -376,4 +376,3 @@
       padding-left: 80px;
     }
   }
-  
