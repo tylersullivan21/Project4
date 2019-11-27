@@ -1,0 +1,10 @@
+.landing-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-top: 20%;
+    grid-template-areas:
+    ". landing-title ."
+    "landing-text landing-text landing-text"
+    "sports-btn music-btn tech-btn"
+}
