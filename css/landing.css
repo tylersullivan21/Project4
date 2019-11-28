@@ -2,9 +2,28 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    padding-top: 20%;
+    padding-top: 10%;
+    padding-right: 15%;
+    padding-left: 15%;
     grid-template-areas:
-    ". landing-title ."
-    "landing-text landing-text landing-text"
-    "sports-btn music-btn tech-btn"
+        ". landing-title ."
+        "landing-content landing-content landing-content"
+        "sports-btn music-btn tech-btn";
+}
+
+.landing-title{
+    grid-area: landing-title;
+    font-size: 40px;
+    display: grid;
+}
+.landing-title h1{
+    justify-self: center;
+}
+
+.landing-content{
+    grid-area: landing-content;
+    justify-self: center;
+    display: grid;
+    padding-right: 10%;
+    padding-left: 10%;
 }
