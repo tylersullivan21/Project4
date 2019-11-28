@@ -7,9 +7,9 @@
     <link rel="stylesheet"  href="css/base_grid.css?v=1.0">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/nav.css?v=1.0">
-    <link rel="stylesheet" href="css/landing.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/login-tyler.css">
+    <link rel="stylesheet" href="css/landing.css?v=1.0">
+    <link rel="stylesheet" href="css/footer.css?v=1.0">
+    <link rel="stylesheet" href="css/login-tyler.css?v=1.0">
     <title><?php $title?></title>
 </head>
 

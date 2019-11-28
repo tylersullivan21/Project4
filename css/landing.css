@@ -32,3 +32,32 @@
     line-height: 2.5rem;
     font-size: 18px;
 }
+
+
+@media only screen and (max-width: 600px) {
+   .landing-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 1fr 1fr;
+    padding-top: 10%;
+padding-right: 0;
+padding-left: 0;
+    grid-template-areas:
+        "landing-title"
+        "landing-content";
+}
+ .landing-title h1{
+    padding-right: 2%;
+    padding-left: 2%;
+    white-space: nowrap;
+    font-size: 50px;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+.landing-content p{
+    line-height: 2.5rem;
+    font-size: 18px;
+}
+   }
+  
