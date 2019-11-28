@@ -102,4 +102,12 @@ and (min-resolution: 192dpi) {
         "twitter-content";
 }
 
+.news-title{
+    padding-top: 15%;
+}
+
+.news-title h1{
+    margin-bottom: 0;
+}
+
 }
