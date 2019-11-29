@@ -14,8 +14,8 @@ function openPage(){
 </section>
 
 <section class="site-links">
-<a class="sports-link" href="sports.php"></a>
-<a class="music-link" href="music.php"></a>
-<a class="tech-link" href="tech.php"></a>
+<a class="sports-link" href="sports.php">Sports</a>
+<a class="music-link" href="music.php">Music</a>
+<a class="tech-link" href="tech.php">Tech</a>
 
 </section>

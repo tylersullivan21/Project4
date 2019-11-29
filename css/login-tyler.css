@@ -4,7 +4,7 @@
     /*  Sea Green */
     --left-color: #9fdeaf;
     /*  Light Blue  */
-    --right-color: #96dbe2;
+    --right-color: #9fdeaf;
   }
   
   body, html{
@@ -59,13 +59,21 @@
     width: calc(385px - var(--padding) * 2);
     height: 100%;
     display: flex;
+    color: black;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding: 0px var(--padding);
     text-align: center;
   }
-  
+  #sign-up, #sign-up p, #sign-in  #sign-in p{
+    color: black;
+  }
+
+  #slide-left-button, #slide-right-button{
+    color: black;
+  }
+
   .overlay .sign-in{
     float: left;
   }

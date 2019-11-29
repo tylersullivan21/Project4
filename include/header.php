@@ -18,7 +18,7 @@
   <input type="checkbox" id="nav-check">
   <div class="nav-header">
     <div class="nav-title">
-      Forum
+      <a href="landing.php">Forum</a>
     </div>
   </div>
 

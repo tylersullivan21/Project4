@@ -5,6 +5,7 @@
     background: #edeef0;
     grid-template-columns: 70% 30%;
     grid-gap: 15px;
+    padding-bottom: 5%;
     padding-right: 22%;
     padding-left: 20%;
    grid-template-areas:
