@@ -88,7 +88,6 @@ if (isset($_POST['signup'])) {
  
       <p class="small">or use your email for registration:</p>
       <form action="" id="sign-up-form" method="POST">
-        <input type="text" name="test" placeholder="Name"/>
         <input type="email" name="email" placeholder="Email"/>
         <input type="password" name="password" placeholder="Password"/>
         <button class="control-button up" name="signup">Sign Up</button>
