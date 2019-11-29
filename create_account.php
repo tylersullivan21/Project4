@@ -31,22 +31,13 @@ if (isset($_POST['submit'])) {
     } else {
         mysqli_stmt_bind_param($stmt, "ss", $email, $passwordSecured);
         mysqli_stmt_execute($stmt);
-        mysqli_close($connect);
     }
-/*
 
     if (isset($_POST['sports'])) {
-        $sports = $_POST['sports'];
+        $pref = "tech";
+        $query = "INSERT INTO tags (user_email, cat) VALUES ('$email', '$pref')";
+        mysqli_query($connect, $query);
     }
-    if (isset($_POST['tech'])) {
-        $tech = $_POST['tech'];
-    }
-
-    if (isset($_POST['music'])) {
-        $music = $_POST['music'];
-    }
-*/
-
 
     echo "<h4>You have successfully created an account! You will be redirected in 5 seconds.</h4>";
 
