@@ -3,7 +3,7 @@
     height: 50px;
 
    margin-bottom: -50px;
-    background: #4d4d4d;
+    background: #9fdeaf;
     grid-template-columns: 33% 33% 33%;
     grid-template-areas:
     ". copyright ."
@@ -12,6 +12,6 @@
 .copyright{
     justify-self: center;
     align-self: center;
-    color: white;
+    color: black;
     grid-area: copyright;
 }
