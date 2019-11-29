@@ -10,7 +10,7 @@
 </head>
 
 <?php
-include("nav.php");
+include("include/header.php");
 ?>
 
 <?php
