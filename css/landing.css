@@ -83,7 +83,14 @@ padding-left: 0;
     font-size: 18px;
 }
 
-
+.site-links{
+    padding-top: 8%;
+}
+ .tech-link{
+    margin-left: 10px;
+   }
+   .sports-link{
+       margin-right: 10px;
    }
   
 
