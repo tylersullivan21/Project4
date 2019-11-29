@@ -66,7 +66,8 @@ padding-right: 0;
 padding-left: 0;
     grid-template-areas:
         "landing-title"
-        "landing-content";
+        "landing-content"
+        "site-links";
 }
  .landing-title h1{
     padding-right: 2%;
@@ -81,5 +82,9 @@ padding-left: 0;
     line-height: 2.5rem;
     font-size: 18px;
 }
+
+
    }
   
+
+

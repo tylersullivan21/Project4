@@ -54,7 +54,7 @@ z-index: 999;
   color: black;
 }
 
-.nav > .nav-links > a:hover {
+.nav > .nav-links> a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -96,13 +96,13 @@ padding-right: 15%;
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid #eee;
+    border-top: 2px solid black;
   }
   .nav > .nav-links {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #333;
+    background-color: #9fdeaf;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
