@@ -13,7 +13,7 @@
 <?php
 if (isset($_POST['submit'])) {
     $email = $_POST["email"];
-    $password = $_POST["password"];
+    $password = mysqli_real_escape_string($connect, $_POST["password"]);
     $passwordSecured = sha1($password);
 
     //Regular Expressions checks for emails and password lengths to be added afterwards
@@ -34,10 +34,21 @@ if (isset($_POST['submit'])) {
     }
 
     if (isset($_POST['sports'])) {
-        $pref = "tech";
+        $pref = mysqli_real_escape_string($connect, "sports");
         $query = "INSERT INTO tags (user_email, cat) VALUES ('$email', '$pref')";
         mysqli_query($connect, $query);
     }
+        if (isset($_POST['tech'])) {
+        $pref = mysqli_real_escape_string($connect, "tech");
+        $query = "INSERT INTO tags (user_email, cat) VALUES ('$email', '$pref')";
+        mysqli_query($connect, $query);
+    }
+    if (isset($_POST['music'])) {
+        $pref = mysqli_real_escape_string($connect, "music");
+        $query = "INSERT INTO tags (user_email, cat) VALUES ('$email', '$pref')";
+        mysqli_query($connect, $query);
+    }
+
 
     echo "<h4>You have successfully created an account! You will be redirected in 5 seconds.</h4>";
 
