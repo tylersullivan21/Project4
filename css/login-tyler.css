@@ -242,7 +242,7 @@
     height: 25px;
   }
   
-  #sign-in-form input, #sign-up-form input{
+  #sign-in-form input, #sign-up-form input label{
     margin: 12px;
     font-size: 14px;
     padding: 15px;
@@ -253,6 +253,10 @@
     font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: 1.5px;
     padding-left: 20px;
+  }
+
+  #sign-up-form label {
+    font-family: 'Source Sans Pro', serif;
   }
   
   #sign-in-form input::placeholder{

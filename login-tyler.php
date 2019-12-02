@@ -87,9 +87,15 @@ if (isset($_POST['signup'])) {
       <h1>Create Account</h1>
  
       <p class="small">or use your email for registration:</p>
-      <form action="" id="sign-up-form" method="POST">
+      <form action="signup.php" id="sign-up-form" method="POST">
         <input type="email" name="email" placeholder="Email"/>
         <input type="password" name="password" placeholder="Password"/>
+        <label for="sports">Sports</label>
+        <input type="checkbox" name="sports" checked>
+        <label for="sports">Tech</label>
+        <input type="checkbox" name="tech" checked>
+        <label for="sports">Music</label>
+        <input type="checkbox" name="music" checked>
         <button class="control-button up" name="signup">Sign Up</button>
       </form>
     </div>
