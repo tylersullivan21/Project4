@@ -19,7 +19,7 @@ function openPage(){
 </section>
 <section class="landing-content">
 <p>Forum, a news hub built just for you. Minimal, ad-free, curated and focused on being your daily information companion. So that you don’t have to go anywhere else for the latest news on music, tech, and sports. Check out news from all your favorite sources.
-    <br><br><p>Sign in here, or create an account</p>
+    <br><br><p>Sign in <a href="login.php">here</a>, or <a href="login.php">create an account.</a></p>
 </p>
 </section>
 
