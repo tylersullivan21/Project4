@@ -15,6 +15,7 @@ body {
   position: fixed;
   top: 0;
 z-index: 999;
+box-shadow: 1px 1px 5px lightgray;
 }
 .nav-header{
   padding-left: 22%;
@@ -121,5 +122,3 @@ padding-right: 15%;
     overflow-y: auto;
   }
 }
-
-
