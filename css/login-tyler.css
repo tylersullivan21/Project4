@@ -20,6 +20,7 @@
   .grid-container{
     padding: 10%;
   }
+  
   .container{
     width: var(--form-width);
     height: var(--form-height);

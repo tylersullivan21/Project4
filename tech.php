@@ -1,6 +1,6 @@
 <?php
     include 'include/header.php';
-    $title = "Tech";
+    $title = "Tech News - Forum";
     $category = "Tech";
     $rsslink = "http://feeds.wired.com/wired/index";
     include 'include/newsTemplate.php';

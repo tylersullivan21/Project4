@@ -18,7 +18,7 @@
   <input type="checkbox" id="nav-check">
   <div class="nav-header">
     <div class="nav-title">
-      <a href="landing.php">Forum</a>
+      <a href="index.php">Forum</a>
     </div>
   </div>
 
@@ -34,6 +34,6 @@
     <a href="sports.php" >Sports</a>
     <a href="tech.php" >Tech</a>
     <a href="music.php" >Music</a>
-    <a href="login-tyler.php" >Sign In</a>
+    <?php echo '<a href="login.php" >Sign In</a>'?>
   </div>
 </nav>
