@@ -1,26 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet"  href="css/base_grid.css?v=1.0">
-    <title>Forum</title>
-</head>
 <?php
-    include("nav.php");
+    include 'include/header.php';
+    $title = "Home - Forum";
+    $category = "Music";
 ?>
-<body>
-     
-<main class="grid-wrapper">
 
 
+<script>
+function openPage(){
+
+    window.open("http://www.google.com")
+}
+    </script>
+
+<main class="landing-grid">
+<section class="landing-title">
+<h1>Forum.<br> News that matters to you. <br>Ad-free. Distraction-free.</h1>
+<hr>
+</section>
+<section class="landing-content">
+<p>Forum, a news hub built just for you. Minimal, ad-free, curated and focused on being your daily information companion. So that you don’t have to go anywhere else for the latest news on music, tech, and sports. Check out news from all your favorite sources.
+    <br><br><p>Sign in here, or create an account</p>
+</p>
+</section>
+
+<!--<section class="site-links">
+<a class="sports-link" href="sports.php">Sports</a>
+<a class="music-link" href="music.php">Music</a>
+<a class="tech-link" href="tech.php">Tech</a>
+
+</section> -->
 </main>
-<footer id="footer" class="footer">
-        <p class="copyright" href="#">&copy Forum 2019</p>
-</footer>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
-<script src="js/modal.js"></script>
-<script src="js/nav.js"></script>
+
+
 </html>

@@ -11,16 +11,21 @@ body {
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #4d4d4d;
+  background-color: #9fdeaf;
   position: fixed;
   top: 0;
 z-index: 999;
+box-shadow: 1px 1px 5px lightgray;
 }
 .nav-header{
   padding-left: 22%;
 }
 .nav-links{
   padding-right: 20%;
+}
+.nav-title a{
+  text-decoration: none;
+  color: black;
 }
 .nav > .nav-header {
   display: inline;
@@ -29,7 +34,7 @@ z-index: 999;
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
-  color: #fff;
+  color: black;
   padding: 10px 10px 10px 10px;
 }
 
@@ -47,10 +52,10 @@ z-index: 999;
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: #efefef;
+  color: black;
 }
 
-.nav > .nav-links > a:hover {
+.nav > .nav-links> a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -92,13 +97,13 @@ padding-right: 15%;
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid #eee;
+    border-top: 2px solid black;
   }
   .nav > .nav-links {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #333;
+    background-color: #9fdeaf;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
@@ -117,5 +122,3 @@ padding-right: 15%;
     overflow-y: auto;
   }
 }
-
-

@@ -3,7 +3,8 @@
     include 'include/header.php';
     $title = "Sports";
     $category = "Sports";
-    $rsslink = "https://www.si.com/rss/si_topstories.rss
+    $rsslink = "https://foxnews.com/foxnews/sports
+
 ";
     include 'include/newsTemplate.php';
 ?>

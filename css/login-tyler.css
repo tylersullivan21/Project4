@@ -4,7 +4,7 @@
     /*  Sea Green */
     --left-color: #9fdeaf;
     /*  Light Blue  */
-    --right-color: #96dbe2;
+    --right-color: #9fdeaf;
   }
   
   body, html{
@@ -20,6 +20,7 @@
   .grid-container{
     padding: 10%;
   }
+  
   .container{
     width: var(--form-width);
     height: var(--form-height);
@@ -59,13 +60,21 @@
     width: calc(385px - var(--padding) * 2);
     height: 100%;
     display: flex;
+    color: black;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding: 0px var(--padding);
     text-align: center;
   }
-  
+  #sign-up, #sign-up p, #sign-in  #sign-in p{
+    color: black;
+  }
+
+  #slide-left-button, #slide-right-button{
+    color: black;
+  }
+
   .overlay .sign-in{
     float: left;
   }
@@ -234,7 +243,7 @@
     height: 25px;
   }
   
-  #sign-in-form input, #sign-up-form input{
+  #sign-in-form input, #sign-up-form input label{
     margin: 12px;
     font-size: 14px;
     padding: 15px;
@@ -245,6 +254,10 @@
     font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: 1.5px;
     padding-left: 20px;
+  }
+
+  #sign-up-form label {
+    font-family: 'Source Sans Pro', serif;
   }
   
   #sign-in-form input::placeholder{

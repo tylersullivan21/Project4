@@ -7,9 +7,9 @@
     <link rel="stylesheet"  href="css/base_grid.css?v=1.0">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/nav.css?v=1.0">
-    <link rel="stylesheet" href="css/landing.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/login-tyler.css">
+    <link rel="stylesheet" href="css/landing.css?v=1.0">
+    <link rel="stylesheet" href="css/footer.css?v=1.0">
+    <link rel="stylesheet" href="css/login-tyler.css?v=1.0">
     <title><?php $title?></title>
 </head>
 
@@ -18,7 +18,7 @@
   <input type="checkbox" id="nav-check">
   <div class="nav-header">
     <div class="nav-title">
-      Forum
+      <a href="index.php">Forum</a>
     </div>
   </div>
 
@@ -34,6 +34,6 @@
     <a href="sports.php" >Sports</a>
     <a href="tech.php" >Tech</a>
     <a href="music.php" >Music</a>
-    <a href="login-tyler.php" >Sign In</a>
+    <?php echo '<a href="login.php" >Sign In</a>'?>
   </div>
 </nav>
