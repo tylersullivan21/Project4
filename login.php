@@ -65,7 +65,7 @@ session_start();
       <p class="small">or use your email for registration:</p>
       <form action="signup.php" id="sign-up-form" method="POST">
         <input type="email" name="email" placeholder="Email"/>
-        <input type="password" name="password" placeholder="Password"/>
+        <input type="password" name="password" placeholder="Password (Min. 8 characters)"/>
         <label for="sports">Sports</label>
         <input type="checkbox" name="sports" checked>
         <label for="sports">Tech</label>

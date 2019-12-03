@@ -62,6 +62,7 @@ body {
 }
 
 .nav > .nav-links> a:hover {
+  transition: background-color 1s ease;
   background-color: rgba(242, 87, 87, 0.5);
 }
 

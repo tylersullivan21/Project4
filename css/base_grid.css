@@ -29,7 +29,6 @@ body {
 
 .api-content{
     grid-area: api-content;
-   
 }
 
 .twitter-content{
@@ -74,7 +73,7 @@ and (min-resolution: 192dpi) {
     display: grid;
     padding-left: 4%;
     padding-right: 4%;
-    background: #F8F8FF;
+    background: #FFFFFA;
     grid-template-columns: 1fr;
     grid-gap: 35px;
     grid-template-areas:
