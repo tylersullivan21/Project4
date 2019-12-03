@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 include "include/db_connection.php";
 
 
@@ -37,9 +39,9 @@ if (isset($_POST['signup'])) {
 
     mysqli_close($connect);
 
-    echo $email;
-    echo $userID;
-    echo "<h4>You have successfully created an account! You will be redirected in 5 seconds.</h4>";
-    $_SESSION["loggedIn"] = "true";
+    header('Refresh:1; url=news.php', true, 303);
+    $_SESSION["loggedIn"] = true;
+    $_SESSION["username"] = $email;
+
 }
 ?>

@@ -1,11 +1,9 @@
 
 <?php
     include 'include/header.php';
-    $title = "Sports";
+    $title = "Sports News - Forum";
     $category = "Sports";
-    $rsslink = "https://foxnews.com/foxnews/sports
-
-";
+    $rsslink = "https://www.espn.com/espn/rss/news";
     include 'include/newsTemplate.php';
 ?>
 

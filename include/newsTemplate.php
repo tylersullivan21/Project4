@@ -2,6 +2,7 @@
 <main class="grid-wrapper">
 <section class="news-title">
 <h1><?php echo $category ?></h1>
+<hr>
 </section>
 <section class="api-content">
 <blockquote class="embedly-card" data-card-key="ebb7de6b6ca24fff80d7dd010fad7fee" data-card-controls="0"><h4><a href="<?php echo $rsslink ?>"></a></h4><p></p></blockquote>

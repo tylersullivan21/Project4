@@ -1,8 +1,9 @@
-
-
+body {
+    background: #FFFFFA;
+}
 .grid-wrapper{
     display: grid;
-    background: #F6F6F6;
+    background: #FFFFFA;
     grid-template-columns: 70% 30%;
     grid-gap: 15px;
     padding-bottom: 5%;
@@ -14,19 +15,20 @@
 
 }
 .news-title{
-    font-size: 50px;
     justify-self: center;
     grid-area: news-title;
-    padding-top: 5%;
-    font-family: 'Great Vibes', cursive ;
-    font-size: 40px;
+    padding-top: 10%;
+    font-family: 'Source Sans Pro', sans-serif ;
+    font-size: 20px;
+    color: rgba(242, 87, 87, 0.6);
+    text-shadow: 0px 2px lightgrey;
+    text-transform: uppercase;
 }
 
 
 
 .api-content{
     grid-area: api-content;
-   
 }
 
 .twitter-content{
@@ -35,28 +37,6 @@
     padding-top: 12%;
 }
 
-
-.headline img{
-    width: 100%;
-}
-
-.card img{
-    width: 100%;
-}
-.card1 img{
-    width: 100%;
-}
-
-.card2 img{
-    width: 100%;
-}
-
-.card3 img{
-    width: 100%;
-}
-.tweet img{
-    width: 100%;
-}
 
 
 
@@ -93,7 +73,7 @@ and (min-resolution: 192dpi) {
     display: grid;
     padding-left: 4%;
     padding-right: 4%;
-    background: #edeef0;
+    background: #FFFFFA;
     grid-template-columns: 1fr;
     grid-gap: 35px;
     grid-template-areas:
@@ -101,14 +81,6 @@ and (min-resolution: 192dpi) {
         "headline-article"
         "api-content"
         "twitter-content";
-}
-
-.news-title{
-    padding-top: 15%;
-}
-
-.news-title h1{
-    margin-bottom: 0;
 }
 
 }

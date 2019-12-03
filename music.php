@@ -1,6 +1,6 @@
 <?php
     include 'include/header.php';
-    $title = "Music";
+    $title = "Music News - Forum";
     $category = "Music";
     $rsslink = "http://pitchfork.com/rss/news/";
     include 'include/newsTemplate.php';

@@ -2,9 +2,9 @@
     --form-height:550px;
     --form-width: 900px;
     /*  Sea Green */
-    --left-color: #9fdeaf;
+    --left-color: lightgray;
     /*  Light Blue  */
-    --right-color: #9fdeaf;
+    --right-color: #363F73;
   }
   
   body, html{
@@ -15,7 +15,6 @@
     letter-spacing: 0.5px;
   }
 
-  
   
   .grid-container{
     padding: 10%;
@@ -258,6 +257,7 @@
 
   #sign-up-form label {
     font-family: 'Source Sans Pro', serif;
+    color: grey;
   }
   
   #sign-in-form input::placeholder{

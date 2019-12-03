@@ -11,35 +11,11 @@
 
 <?php
 include("include/header.php");
-?>
+session_start();
 
-<?php
-if (isset($_POST['signup'])) {
-    $email = $_POST["email"];
-    $password = $_POST["password"];
-    $passwordSecured = sha1($password);
-
-    //Regular Expressions checks for emails and password lengths to be added afterwards
-    //Keeping Simple for testing Database and User Content Logic
-
-
-    include "db_connection.php";
-
-    $newUser = "INSERT INTO user (user_email, user_pass) VALUES (?, ?)";
-
-    //Prepared Statement for user credentials input into database
-    $stmt = mysqli_stmt_init($connect);
-    if (!mysqli_stmt_prepare($stmt, $newUser)) {
-        echo "SQL ERROR";
-    } else {
-        mysqli_stmt_bind_param($stmt, "ss", $email, $passwordSecured);
-        mysqli_stmt_execute($stmt);
-        mysqli_close($connect);
-    }
-}
 ?>
 <body>
-    
+    <div class="test1">
 <main class="grid-container">
 
 
@@ -77,7 +53,7 @@ if (isset($_POST['signup'])) {
         </div>
       </div>
       <p class="small">or use your email account:</p>
-      <form action ="process.php" id="sign-in-form" method="POST">      
+      <form action ="signin.php" id="sign-in-form" method="POST">      
         <input type="email" name="email" placeholder="Email"/>
         <input type="password" name="password" placeholder="Password"/>
         <button type="submit" class="control-button in" name="signin">Sign In</button>
@@ -89,7 +65,7 @@ if (isset($_POST['signup'])) {
       <p class="small">or use your email for registration:</p>
       <form action="signup.php" id="sign-up-form" method="POST">
         <input type="email" name="email" placeholder="Email"/>
-        <input type="password" name="password" placeholder="Password"/>
+        <input type="password" name="password" placeholder="Password (Min. 8 characters)"/>
         <label for="sports">Sports</label>
         <input type="checkbox" name="sports" checked>
         <label for="sports">Tech</label>
@@ -103,6 +79,7 @@ if (isset($_POST['signup'])) {
 </div>
 
 </main>
+</div>
 <footer id="footer" class="footer">
         <p class="copyright" href="#">&copy Forum 2019</p>
 </footer>
