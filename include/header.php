@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet"  href="css/base_grid.css?v=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/nav.css?v=1.0">
     <link rel="stylesheet" href="css/landing.css?v=1.0">
     <link rel="stylesheet" href="css/footer.css?v=1.0">
-    <link rel="stylesheet" href="css/login-tyler.css?v=1.0">
     <title><?php $title?></title>
 </head>
 
@@ -34,6 +33,15 @@
     <a href="sports.php" >Sports</a>
     <a href="tech.php" >Tech</a>
     <a href="music.php" >Music</a>
-    <?php echo '<a href="login.php" >Sign In</a>'?>
+    <?php
+    session_start();
+    if ($_SESSION['loggedIn'] == true) {
+      echo '<a href="news.php">Your News</a>
+      <a href="signout.php">Sign Out</a>';
+    } else {
+        echo '<a href="login.php">Sign In</a>';
+      }
+      ?>
+      </a>
   </div>
 </nav>

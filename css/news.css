@@ -1,0 +1,20 @@
+.news-wrapper {
+    display: grid;
+    background: #F6F6F6;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "content-1 content-2"
+        "content-3 content-3";
+}
+
+.content-1 {
+    grid-area: content-1;
+}
+
+.content-2 {
+    grid-area: content-2;
+}
+
+.content-3 {
+    grid-area: content-3;
+}

@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 include "include/db_connection.php";
 
@@ -6,7 +7,7 @@ if (isset($_POST['signin'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
     $encrypt = sha1($password);
-    $query = "SELECT * FROM user WHERE user_email = ? AND user_pass = ?";
+    $query = "SELECT * FROM user WHERE mail = ? AND pw = ?";
     $stmt = mysqli_stmt_init($connect);
 
     if (!mysqli_stmt_prepare($stmt, $query)) {
@@ -19,9 +20,9 @@ if (isset($_POST['signin'])) {
     if (mysqli_num_rows($validate) == 1) {
 
          // Test Sign in functionality -- more code to come
-        header('Refresh:2; url=curated.php', true, 303);
-        echo "Successful sign";
-        $_SESSION["loggedin"] = "true";
+        header('Refresh:1; url=news.php', true, 303);
+        $_SESSION["loggedIn"] = true;
+        $_SESSION["username"] = $email;
 
     }
 }
