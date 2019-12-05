@@ -18,7 +18,6 @@ session_start();
     <div class="test1">
 <main class="grid-container">
 
-
 <div class="container">
   <div class="overlay" id="overlay">
     <div class="sign-in" id="sign-in">
@@ -59,13 +58,20 @@ session_start();
         <button type="submit" class="control-button in" name="signin">Sign In</button>
       </form>
     </div>
+<?php 
+
+
+
+
+?>
+
     <div class="sign-up" id="sign-up-info">
       <h1>Create Account</h1>
  
       <p class="small">or use your email for registration:</p>
       <form action="signup.php" id="sign-up-form" method="POST">
         <input type="email" name="email" placeholder="Email"/>
-        <input type="password" name="password" placeholder="Password (Min. 8 characters)"/>
+        <input type="password" name="password" placeholder="Password (Min. 8 Characters)"/>
         <label for="sports">Sports</label>
         <input type="checkbox" name="sports" checked>
         <label for="sports">Tech</label>
@@ -77,7 +83,8 @@ session_start();
     </div>
   </div>
 </div>
-
+<p class="error"><?php if (isset($_SESSION["incorrect"])) {
+  echo "incorrect username or password"; }?></p>
 </main>
 </div>
 <footer id="footer" class="footer">

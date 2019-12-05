@@ -2,9 +2,9 @@
     --form-height:550px;
     --form-width: 900px;
     /*  Sea Green */
-    --left-color: lightgray;
+    --left-color: #363F73;
     /*  Light Blue  */
-    --right-color: #363F73;
+    --right-color: lightgray;
   }
   
   body, html{
@@ -13,6 +13,13 @@
     margin: 0;
     font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: 0.5px;
+  }
+
+  .error {
+    color: red;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   

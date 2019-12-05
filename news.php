@@ -17,8 +17,10 @@
 
     $user = $_SESSION["username"];
 
-    $query = "SELECT ID FROM user WHERE mail = '$user'";
+    /*$query = "SELECT ID FROM user WHERE mail = '$user'";
     mysqli_query($connect, $query) or die("SQL Error @tags");
+*/
+    $result = mysqli_query($connect, "SELECT ID FROM user WHERE mail = $user");
 
     /*This is the idea, check the query for which tags and then selection which would be echo'd for the user. We will create an rss feed*/
 
@@ -41,7 +43,7 @@
 </section>
 
 <section class="content-3">
-    <p><?php echo $test; ?></p>
+    <p><?php echo $result; echo "test";?></p>
 </section>
 </main>
 

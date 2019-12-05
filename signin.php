@@ -8,7 +8,7 @@ if (isset($_POST['signin'])) {
     $password = $_POST['password'];
     $encrypt = sha1($password);
     $query = "SELECT * FROM user WHERE mail = ? AND pw = ?";
-    $stmt = mysqli_stmt_init($connect);
+    $stmt = mysqli_stmt_init($connect);    
 
     if (!mysqli_stmt_prepare($stmt, $query)) {
         echo "SQL statement error";
@@ -23,7 +23,12 @@ if (isset($_POST['signin'])) {
         header('Refresh:1; url=news.php', true, 303);
         $_SESSION["loggedIn"] = true;
         $_SESSION["username"] = $email;
+        unset($_SESSION["incorrect"]);
 
+    } else {
+        header('Refresh:0.5; url=login.php', true, 303);
+        $_SESSION["incorrect"] = true;
     }
 }
+
 ?>
