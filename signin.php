@@ -19,6 +19,10 @@ if (isset($_POST['signin'])) {
     }
     if (mysqli_num_rows($validate) == 1) {
 
+        $row = mysqli_fetch_assoc($validate);
+        $id = $row["ID"];
+        $_SESSION["userID"] = $id;
+
          // Test Sign in functionality -- more code to come
         header('Refresh:1; url=news.php', true, 303);
         $_SESSION["loggedIn"] = true;

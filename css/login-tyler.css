@@ -26,6 +26,7 @@
   .grid-container{
     padding: 10%;
   }
+
   
   .container{
     width: var(--form-width);
@@ -396,3 +397,9 @@
       padding-left: 80px;
     }
   }
+
+
+  @media only screen and (max-width: 600px) {
+
+
+    }

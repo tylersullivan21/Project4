@@ -71,7 +71,7 @@ session_start();
       <p class="small">or use your email for registration:</p>
       <form action="signup.php" id="sign-up-form" method="POST">
         <input type="email" name="email" placeholder="Email"/>
-        <input type="password" name="password" placeholder="Password (Min. 8 Characters)"/>
+        <input type="password" name="password" placeholder="Password (Min. 6 Characters)"/>
         <label for="sports">Sports</label>
         <input type="checkbox" name="sports" checked>
         <label for="sports">Tech</label>
@@ -84,7 +84,7 @@ session_start();
   </div>
 </div>
 <p class="error"><?php if (isset($_SESSION["incorrect"])) {
-  echo "incorrect username or password"; }?></p>
+  echo "incorrect email/password or email is already in use"; }?></p>
 </main>
 </div>
 <footer id="footer" class="footer">
