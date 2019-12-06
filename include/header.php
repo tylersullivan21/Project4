@@ -35,6 +35,7 @@
     <a href="music.php" >Music</a>
     <?php
     session_start();
+    error_reporting(0);
     if ($_SESSION['loggedIn'] == true) {
       echo '<a href="news.php">Your News</a>
       <a href="signout.php">Sign Out</a>';

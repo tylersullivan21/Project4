@@ -1,7 +1,7 @@
 .news-wrapper {
     display: grid;
     background: #FFFFFA;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
        grid-gap: 15px;
        padding-top: 10%;
        padding-bottom: 5%;

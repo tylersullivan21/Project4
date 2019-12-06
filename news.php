@@ -5,6 +5,7 @@
     include "include/news.css";
     $rsslink = "https://www.espn.com/espn/rss/news";
 
+
    /* if (!isset($_SESSION["loggedIn"])) {
         header('Refresh:0.2; url=login.php', true, 303);
     } else { */
@@ -55,37 +56,50 @@
            $urlTwo = "http://feeds.feedburner.com/TechCrunch";
            $urlThree = "http://api.foxsports.com/v1/rss?partnerKey=zBaFxRyGKCfxBagJG9b8pqLyndmvo7UU";
        }
-        if ($techMusicNews == true) {
-            $urlOne;
-            $urlTwo;
-            $urlThree;
-        }
-/*
-        if ($sportsMusicNews == true) {
-            $urlOne = test;
-            $urlTwo = test;
-            $urlThree = test;
+        if ($tagCounter == 5) {
+            $urlOne = "http://www.music-news.com/rss/UK/news?includeCover=true";
+            $urlTwo = "http://feeds.feedburner.com/TechCrunch";
+            $urlThree = "consequenceofsound.net/feed";
         }
 
-              if ($sportsTechNews == true) {
-                  $urlOne = test;
-                  $urlTwo = test;
-                  $urlThree = test;
-              }
+        if ($tagCounter == 4) {
+            $urlOne = "http://www.music-news.com/rss/UK/news?includeCover=true";
+            $urlTwo = "http://www.cbssports.com/rss/headlines";
+            $urlThree = "http://rssfeeds.usatoday.com/UsatodaycomSports-TopStories";
+        }
 
-              if ($allNews == true) {
-                  $urlOne = test;
-                  $urlTwo = test;
-                  $urlThree = test;
-              }*/
+        if ($tagCounter == 3) {
+            $urlOne = "consequenceofsound.net/feed";
+            $urlTwo = "http://rssfeeds.usatoday.com/UsatodaycomMusic-TopStories";
+            $urlThree = "http://www.music-news.com/rss/UK/news?includeCover=true";
+        }
 
-echo $tagCounter;
+        if ($tagCounter == 2) {
+            $urlOne = "http://rssfeeds.usatoday.com/usatoday-TechTopStories";
+            $urlTwo = "http://feeds.feedburner.com/TechCrunch";
+            $urlThree = "https://www.theverge.com/rss/index.xml";
+        }
 
-    
+        if ($tagCounter == 1){
+            $urlOne = "http://api.foxsports.com/v1/rss?partnerKey=zBaFxRyGKCfxBagJG9b8pqLyndmvo7UU";
+            $urlTwo = "http://rssfeeds.usatoday.com/UsatodaycomSports-TopStories";
+            $urlThree = "https://rss.nytimes.com/services/xml/rss/nyt/Sports.xml";
+   
+        }
+
+        if ($tagCounter ==7){
+            $urlOne = "http://feeds.feedburner.com/TechCrunch";
+            $urlTwo = "http://rssfeeds.usatoday.com/UsatodaycomSports-TopStories";
+            $urlThree = "http://www.cbssports.com/rss/headlines";
+
+        }
+        
 ?>
-    <head><link rel="stylesheet" href="css/news.css"></head>
-    <body>
 
+
+    <head><link rel="stylesheet" href="css/news.css"></head>
+
+    <body>
 <main class="news-wrapper"> 
 
 <section class="content-1">
