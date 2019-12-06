@@ -3,7 +3,7 @@ session_start();
 
 include "include/db_connection.php";
 
-if (isset($_POST['signin'])) {
+if (isset($_POST["signin"]) && isset($_POST["email"]) && isset($_POST["password"])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
     $encrypt = sha1($password);

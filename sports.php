@@ -4,7 +4,14 @@
     $title = "Sports News - Forum";
     $category = "Sports";
     $rsslink = "https://www.espn.com/espn/rss/news";
-    include 'include/newsTemplate.php';
+?>
+
+<div class="image-test2">
+    <p class="category"><?php echo $category; ?></p>
+    <img class="image-test" src ="images/sportsopacity.jpg" />
+</div>
+
+<?php include 'include/newsTemplate.php';
 ?>
 
 
