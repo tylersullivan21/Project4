@@ -63,6 +63,7 @@ if (isset($_POST["signup"]) && isset($_POST["email"]) && isset($_POST["password"
         }
 
         header('Refresh:1; url=news.php', true, 303);
+        $_SESSION["userID"] = $userID;
         $_SESSION["loggedIn"] = true;
         $_SESSION["username"] = $email;
         unset($_SESSION["incorrect"]);

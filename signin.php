@@ -20,7 +20,7 @@ if (isset($_POST['signin'])) {
     if (mysqli_num_rows($validate) == 1) {
 
         $row = mysqli_fetch_assoc($validate);
-        $id = $row["ID"];
+        $id = $row["id"];
         $_SESSION["userID"] = $id;
 
          // Test Sign in functionality -- more code to come
