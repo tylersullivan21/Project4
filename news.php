@@ -1,5 +1,4 @@
 <?php
-    session_start();
     include 'include/header.php';
     $title = "News For You - Forum";
     include "include/news.css";
@@ -93,7 +92,7 @@
             $urlThree = "http://www.cbssports.com/rss/headlines";
 
         }
-        
+
 ?>
 
 

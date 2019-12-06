@@ -7,7 +7,7 @@
 
 <div class="image-test2">
     <p class="category"><?php echo $category; ?></p>
-    <img class="image-test" src ="images/musicopacity.jpg" />
+    <img class="image-test" src ="./images/musicopacity.jpg" />
 </div>
 
 <?php include 'include/newsTemplate.php';
