@@ -1,9 +1,16 @@
 <?php
     include 'include/header.php';
-    $title = "Music";
+    $title = "Music News - Forum";
     $category = "Music";
     $rsslink = "http://pitchfork.com/rss/news/";
-    include 'include/newsTemplate.php';
+?>
+
+<div class="image-test2">
+    <p class="category"><?php echo $category; ?></p>
+    <img class="image-test" src ="./images/musicopacity.jpg" />
+</div>
+
+<?php include 'include/newsTemplate.php';
 ?>
 
 <section class="twitter-content">

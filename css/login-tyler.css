@@ -2,9 +2,9 @@
     --form-height:550px;
     --form-width: 900px;
     /*  Sea Green */
-    --left-color: #9fdeaf;
+    --left-color: #363F73;
     /*  Light Blue  */
-    --right-color: #9fdeaf;
+    --right-color: lightgray;
   }
   
   body, html{
@@ -15,11 +15,18 @@
     letter-spacing: 0.5px;
   }
 
-  
+  .error {
+    color: red;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
   
   .grid-container{
     padding: 10%;
   }
+
   
   .container{
     width: var(--form-width);
@@ -258,6 +265,7 @@
 
   #sign-up-form label {
     font-family: 'Source Sans Pro', serif;
+    color: grey;
   }
   
   #sign-in-form input::placeholder{
@@ -389,3 +397,9 @@
       padding-left: 80px;
     }
   }
+
+
+  @media only screen and (max-width: 600px) {
+
+
+    }
